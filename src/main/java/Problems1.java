@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class Problems {
+public class Problems1 {
 
     public boolean PalindromePermutation(String str) {
         str = str.toLowerCase();
@@ -82,5 +82,7 @@ public class Problems {
             return str;
         }
     }
+
+
 
 }
