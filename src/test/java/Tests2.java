@@ -63,6 +63,49 @@ public class Tests2 {
         assertEquals(true, caught);
     }
 
+    @Test
+    public void dupRemoval(){
+        Node node = new Node(1);
+        for (int i = 2; i < 10; i++) {
+            node.appendToTail(i);
+        }
+        for (int i = 2; i < 10; i++) {
+            node.appendToTail(5);
+        }
+        for (int i = 2; i < 10; i++) {
+            node.appendToTail(i);
+        }
+        assertEquals("[1 2 3 4 5 6 7 8 9 ]",problems2.removeDup(node).toString());
+    }
 
+    @Test
+    public void kEnd(){
+        Node node = new Node(1);
+        for (int i = 2; i < 10; i++) {
+            node.appendToTail(i);
+        }
+
+        assertEquals(6,problems2.kEnd(node,3));
+    }
+
+    @Test
+    public void kLastEnd(){
+        Node node = new Node(1);
+        for (int i = 2; i < 10; i++) {
+            node.appendToTail(i);
+        }
+
+        assertEquals(1,problems2.kEnd(node,10));
+    }
+
+    @Test
+    public void kFirstEnd(){
+        Node node = new Node(1);
+        for (int i = 2; i < 10; i++) {
+            node.appendToTail(i);
+        }
+
+        assertEquals(9,problems2.kEnd(node,0));
+    }
 
 }
