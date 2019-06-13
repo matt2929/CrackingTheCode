@@ -30,4 +30,42 @@ public class Problems2 {
         return runner2.data;
     }
 
+    public Node sumLinkedList(Node a, Node b) {
+        if(a==null||b==null){
+            throw new NullPointerException();
+        }
+
+
+        int carry = (a.data+b.data)/10;
+        Node c=new Node((a.data+b.data)%10);
+        Node cRunner=c;
+        a=a.next;
+        b=b.next;
+        while(a!=null&&b!=null){
+            cRunner.next = new Node((a.data+b.data+carry)%10);
+            carry = (a.data+b.data+carry)/10;
+            cRunner=cRunner.next;
+            a=a.next;
+            b=b.next;
+        }
+        while(a!=null){
+            cRunner.next = new Node((a.data+carry)%10);
+            carry = (a.data)/10;
+            cRunner=cRunner.next;
+            a=a.next;
+
+        }
+
+        while(b!=null){
+            cRunner.next = new Node((b.data+carry)%10);
+            carry = (b.data)/10;
+            cRunner=cRunner.next;
+            b=b.next;
+        }
+
+        if(carry!=0)
+            cRunner.next=new Node(carry);
+        return c;
+    }
+
 }

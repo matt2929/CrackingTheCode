@@ -104,8 +104,60 @@ public class Tests2 {
         for (int i = 2; i < 10; i++) {
             node.appendToTail(i);
         }
-
         assertEquals(9,problems2.kEnd(node,0));
+    }
+
+    @Test
+    public void sumListSimpleGood(){
+        Node a = new Node(7);
+        a.appendToTail(1);
+        a.appendToTail(6);
+
+        Node b = new Node(5);
+        b.appendToTail(9);
+        b.appendToTail(2);
+
+        Node c = new Node(2);
+        c.appendToTail(1);
+        c.appendToTail(9);
+
+        assertEquals(c.toString(),problems2.sumLinkedList(a,b).toString());
+    }
+
+    @Test
+    public void sumListWeirdWeightGood(){
+        Node a = new Node(1);
+
+
+        Node b = new Node(5);
+        b.appendToTail(9);
+        b.appendToTail(2);
+        b.appendToTail(9);
+        b.appendToTail(2);
+        b.appendToTail(9);
+        b.appendToTail(2);
+
+        Node c = new Node(6);
+        c.appendToTail(9);
+        c.appendToTail(2);
+        c.appendToTail(9);
+        c.appendToTail(2);
+        c.appendToTail(9);
+        c.appendToTail(2);
+
+        assertEquals(c.toString(),problems2.sumLinkedList(a,b).toString());
+    }
+
+    @Test
+    public void sumListSimpleCarry(){
+        Node a = new Node(7);
+
+        Node b = new Node(5);
+
+        Node c = new Node(2);
+        c.appendToTail(1);
+
+        assertEquals(c.toString(),problems2.sumLinkedList(a,b).toString());
     }
 
 }
