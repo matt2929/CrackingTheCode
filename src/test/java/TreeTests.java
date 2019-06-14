@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
-public class Tests3 {
+public class TreeTests {
 
     Tree tree = new Tree();
 

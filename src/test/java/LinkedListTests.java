@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Tests2 {
+public class LinkedListTests {
 
     LinkedList linkedList = new LinkedList();
 
