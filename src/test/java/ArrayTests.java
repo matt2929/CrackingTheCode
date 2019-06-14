@@ -1,73 +1,73 @@
-import Problems.Arrays;
+import Problems.ArraysProblem;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class ArrayTests {
-    Arrays arrays =  new Arrays();
+    ArraysProblem arraysProblem = new ArraysProblem();
+
     @Test
     public void shouldBeTrue() {
-
         assertEquals(0, 0);
     }
 
     @Test
-    public void tacoCatTrue(){
-        assertEquals(true, arrays.OneAway("pale","ple"));
+    public void tacoCatTrue() {
+        assertEquals(true, arraysProblem.OneAway("pale", "ple"));
     }
 
     @Test
-    public void oneEditGoodRemove(){
-        assertEquals(true, arrays.OneAway("pales","pale"));
-    }
-
-
-    @Test
-    public void oneEditGoodAdd(){
-        assertEquals(true, arrays.OneAway("pale","bale"));
+    public void oneEditGoodRemove() {
+        assertEquals(true, arraysProblem.OneAway("pales", "pale"));
     }
 
 
     @Test
-    public void oneEditGoodSwitch(){
-        assertEquals(false, arrays.OneAway("pale","bake"));
+    public void oneEditGoodAdd() {
+        assertEquals(true, arraysProblem.OneAway("pale", "bale"));
     }
 
 
     @Test
-    public void oneEditBadSameSize(){
-        assertEquals(true, arrays.PalindromePermutation("Tact Coa"));
-    }
-
-    @Test
-    public void compressionGood(){
-        assertEquals("a2b1c5a3", arrays.StringCompression("aabcccccaaa"));
+    public void oneEditGoodSwitch() {
+        assertEquals(false, arraysProblem.OneAway("pale", "bake"));
     }
 
 
     @Test
-    public void compressionEmpty(){
-        assertEquals("", arrays.StringCompression(""));
+    public void oneEditBadSameSize() {
+        assertEquals(true, arraysProblem.PalindromePermutation("Tact Coa"));
     }
 
     @Test
-    public void compressionOneChar(){
-        assertEquals("a", arrays.StringCompression("a"));
+    public void compressionGood() {
+        assertEquals("a2b1c5a3", arraysProblem.StringCompression("aabcccccaaa"));
+    }
+
+
+    @Test
+    public void compressionEmpty() {
+        assertEquals("", arraysProblem.StringCompression(""));
     }
 
     @Test
-    public void compressionWeirdChar(){
-        assertEquals("˚3", arrays.StringCompression("˚˚˚"));
+    public void compressionOneChar() {
+        assertEquals("a", arraysProblem.StringCompression("a"));
     }
 
     @Test
-    public void compressionBigGood(){
-        assertEquals("a20b1", arrays.StringCompression("aaaaaaaaaaaaaaaaaaaab"));
+    public void compressionWeirdChar() {
+        assertEquals("˚3", arraysProblem.StringCompression("˚˚˚"));
     }
 
     @Test
-    public void compressionBad(){
-        assertEquals("abcdefg", arrays.StringCompression("abcdefg"));
+    public void compressionBigGood() {
+        assertEquals("a20b1", arraysProblem.StringCompression("aaaaaaaaaaaaaaaaaaaab"));
+    }
+
+    @Test
+    public void compressionBad() {
+        assertEquals("abcdefg", arraysProblem.StringCompression("abcdefg"));
     }
 
 

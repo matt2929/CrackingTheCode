@@ -2,7 +2,7 @@ package Problems;
 
 import DataStructs.Node;
 
-public class LinkedList {
+public class LinkedListProblem {
 
     public Node removeDup(Node node) {
         Node current = node;
@@ -73,14 +73,14 @@ public class LinkedList {
     }
 
 
-    private Node nodeIncrease(Node n, int c){
+    private Node nodeIncrease(Node n, int c) {
         Node temp = new Node(0);
         Node runner = temp;
-        for(int i=1;i<c;i++){
-            runner.next=new Node(0);
-            runner=runner.next;
+        for (int i = 1; i < c; i++) {
+            runner.next = new Node(0);
+            runner = runner.next;
         }
-        runner.next=n;
+        runner.next = n;
         return temp;
     }
 

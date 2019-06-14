@@ -1,5 +1,5 @@
 import DataStructs.TreeNode;
-import Problems.Tree;
+import Problems.TreeProblem;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TreeTests {
 
-    Tree tree = new Tree();
+    TreeProblem tree = new TreeProblem();
 
     @Test
     public void PreOrderTraversal() {
@@ -20,7 +20,6 @@ public class TreeTests {
         tree.getRight().setRight(new TreeNode("7"));
         tree.getRight().getLeft().setLeft(new TreeNode("9"));
         tree.getRight().getLeft().setRight(new TreeNode("18"));
-
         assertEquals(this.tree.preOrderTraversal(tree), new ArrayList<String>(Arrays.asList(new String[]{"10","5","20","3","9","18","7"})));
     }
 
@@ -33,9 +32,7 @@ public class TreeTests {
         tree.getRight().setRight(new TreeNode("7"));
         tree.getRight().getLeft().setLeft(new TreeNode("9"));
         tree.getRight().getLeft().setRight(new TreeNode("18"));
-
         assertEquals(this.tree.inOrderTraversal(tree), new ArrayList<String>(Arrays.asList(new String[]{"5","10","9","3","18","20","7"})));
-
     }
 
     @Test
@@ -47,9 +44,7 @@ public class TreeTests {
         tree.getRight().setRight(new TreeNode("7"));
         tree.getRight().getLeft().setLeft(new TreeNode("9"));
         tree.getRight().getLeft().setRight(new TreeNode("18"));
-
         assertEquals(this.tree.postOrderTraversal(tree), new ArrayList<String>(Arrays.asList(new String[]{"5","9","18","3","7","20","10"})));
-
     }
 
 }

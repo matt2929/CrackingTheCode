@@ -4,8 +4,9 @@ public class TreeNode {
     String value;
     private TreeNode left;
     private TreeNode right;
-    public TreeNode(String str){
-        this.value=str;
+
+    public TreeNode(String str) {
+        this.value = str;
     }
 
     public TreeNode getLeft() {

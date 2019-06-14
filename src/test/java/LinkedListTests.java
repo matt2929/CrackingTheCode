@@ -1,12 +1,12 @@
 import DataStructs.Node;
-import Problems.LinkedList;
+import Problems.LinkedListProblem;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class LinkedListTests {
 
-    LinkedList linkedList = new LinkedList();
+    LinkedListProblem linkedListProblem = new LinkedListProblem();
 
     @Test
     public void removeLast() {
@@ -77,7 +77,7 @@ public class LinkedListTests {
         for (int i = 2; i < 10; i++) {
             node.appendToTail(i);
         }
-        assertEquals("[1 2 3 4 5 6 7 8 9 ]", linkedList.removeDup(node).toString());
+        assertEquals("[1 2 3 4 5 6 7 8 9 ]", linkedListProblem.removeDup(node).toString());
     }
 
     @Test
@@ -87,7 +87,7 @@ public class LinkedListTests {
             node.appendToTail(i);
         }
 
-        assertEquals(6, linkedList.kEnd(node, 3));
+        assertEquals(6, linkedListProblem.kEnd(node, 3));
     }
 
     @Test
@@ -97,7 +97,7 @@ public class LinkedListTests {
             node.appendToTail(i);
         }
 
-        assertEquals(1, linkedList.kEnd(node, 10));
+        assertEquals(1, linkedListProblem.kEnd(node, 10));
     }
 
     @Test
@@ -106,7 +106,7 @@ public class LinkedListTests {
         for (int i = 2; i < 10; i++) {
             node.appendToTail(i);
         }
-        assertEquals(9, linkedList.kEnd(node, 0));
+        assertEquals(9, linkedListProblem.kEnd(node, 0));
     }
 
     @Test
@@ -123,7 +123,7 @@ public class LinkedListTests {
         c.appendToTail(1);
         c.appendToTail(9);
 
-        assertEquals(c.toString(), linkedList.sumLinkedList(a, b).toString());
+        assertEquals(c.toString(), linkedListProblem.sumLinkedList(a, b).toString());
     }
 
     @Test
@@ -147,7 +147,7 @@ public class LinkedListTests {
         c.appendToTail(9);
         c.appendToTail(2);
 
-        assertEquals(c.toString(), linkedList.sumLinkedList(a, b).toString());
+        assertEquals(c.toString(), linkedListProblem.sumLinkedList(a, b).toString());
     }
 
     @Test
@@ -162,7 +162,7 @@ public class LinkedListTests {
         b.appendToTail(6);
         b.appendToTail(7);
 
-        assertEquals(a.toString(), linkedList.reverseList(b).toString());
+        assertEquals(a.toString(), linkedListProblem.reverseList(b).toString());
     }
 
     @Test
@@ -174,7 +174,7 @@ public class LinkedListTests {
         Node c = new Node(2);
         c.appendToTail(1);
 
-        assertEquals(c.toString(), linkedList.sumLinkedList(a, b).toString());
+        assertEquals(c.toString(), linkedListProblem.sumLinkedList(a, b).toString());
     }
 
 }
