@@ -1,12 +1,14 @@
+package DataStructs;
+
 public class Node {
-    Node next = null;
-    int data;
+    public Node next = null;
+    public int data;
 
     public Node(int d){
         data = d;
     }
 
-    Node appendToTail(int d){
+    public Node appendToTail(int d){
         Node end = new Node(d);
         Node n = this;
         while (n.next != null){
@@ -16,7 +18,7 @@ public class Node {
         return this;
     }
 
-    Node remove(int index){
+    public Node remove(int index){
         if(index<0){
             throw new ArrayIndexOutOfBoundsException();
         }
@@ -44,5 +46,15 @@ public class Node {
         }
         out+="]";
         return out;
+    }
+
+    public int length(){
+        int count=1;
+        Node runner= this;
+        while(runner.next!=null){
+            count++;
+            runner=runner.next;
+        }
+        return count;
     }
 }

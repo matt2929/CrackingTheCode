@@ -1,9 +1,10 @@
+import Problems.Arrays;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class Tests {
-    Problems1 problems1 =  new Problems1();
+    Arrays arrays =  new Arrays();
     @Test
     public void shouldBeTrue() {
 
@@ -12,61 +13,61 @@ public class Tests {
 
     @Test
     public void tacoCatTrue(){
-        assertEquals(true, problems1.OneAway("pale","ple"));
+        assertEquals(true, arrays.OneAway("pale","ple"));
     }
 
     @Test
     public void oneEditGoodRemove(){
-        assertEquals(true, problems1.OneAway("pales","pale"));
+        assertEquals(true, arrays.OneAway("pales","pale"));
     }
 
 
     @Test
     public void oneEditGoodAdd(){
-        assertEquals(true, problems1.OneAway("pale","bale"));
+        assertEquals(true, arrays.OneAway("pale","bale"));
     }
 
 
     @Test
     public void oneEditGoodSwitch(){
-        assertEquals(false, problems1.OneAway("pale","bake"));
+        assertEquals(false, arrays.OneAway("pale","bake"));
     }
 
 
     @Test
     public void oneEditBadSameSize(){
-        assertEquals(true, problems1.PalindromePermutation("Tact Coa"));
+        assertEquals(true, arrays.PalindromePermutation("Tact Coa"));
     }
 
     @Test
     public void compressionGood(){
-        assertEquals("a2b1c5a3", problems1.StringCompression("aabcccccaaa"));
+        assertEquals("a2b1c5a3", arrays.StringCompression("aabcccccaaa"));
     }
 
 
     @Test
     public void compressionEmpty(){
-        assertEquals("", problems1.StringCompression(""));
+        assertEquals("", arrays.StringCompression(""));
     }
 
     @Test
     public void compressionOneChar(){
-        assertEquals("a", problems1.StringCompression("a"));
+        assertEquals("a", arrays.StringCompression("a"));
     }
 
     @Test
     public void compressionWeirdChar(){
-        assertEquals("˚3", problems1.StringCompression("˚˚˚"));
+        assertEquals("˚3", arrays.StringCompression("˚˚˚"));
     }
 
     @Test
     public void compressionBigGood(){
-        assertEquals("a20b1", problems1.StringCompression("aaaaaaaaaaaaaaaaaaaab"));
+        assertEquals("a20b1", arrays.StringCompression("aaaaaaaaaaaaaaaaaaaab"));
     }
 
     @Test
     public void compressionBad(){
-        assertEquals("abcdefg", problems1.StringCompression("abcdefg"));
+        assertEquals("abcdefg", arrays.StringCompression("abcdefg"));
     }
 
 

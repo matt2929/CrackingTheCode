@@ -1,7 +1,9 @@
+package Problems;
+
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class Problems1 {
+public class Arrays {
 
     public boolean PalindromePermutation(String str) {
         str = str.toLowerCase();
