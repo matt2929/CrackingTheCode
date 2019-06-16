@@ -24,7 +24,7 @@ public class MapTests {
         mapNodes[2].addNeighbor(mapNodes[5]);
         mapNodes[2].addNeighbor(mapNodes[6]);
 
-        assertEquals(mapNodes[0].depthFirstSearch(), new ArrayList<String>(Arrays.asList(new String[]{"1", "2", "3", "6", "7", "4", "5"})));
+        assertEquals(new ArrayList<String>(Arrays.asList(new String[]{"1", "2", "3", "6", "7", "4", "5"})), mapNodes[0].depthFirstSearch());
     }
 
     @Test

@@ -1,3 +1,4 @@
+import DataStructs.NodeLevel;
 import DataStructs.TreeNode;
 import Problems.TreeProblem;
 import org.junit.Test;
@@ -45,6 +46,55 @@ public class TreeTests {
         tree.getRight().getLeft().setLeft(new TreeNode("9"));
         tree.getRight().getLeft().setRight(new TreeNode("18"));
         assertEquals(this.tree.postOrderTraversal(tree), new ArrayList<String>(Arrays.asList(new String[]{"5","9","18","3","7","20","10"})));
+    }
+
+    @Test
+    public void MinimalTree(){
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        for(int i=0;i<11;i++){
+            arrayList.add(i);
+        }
+        TreeProblem treeProblem=new TreeProblem();
+        String out ="";
+        for(NodeLevel nodeLevel:tree.preOrderTraversalLevel(treeProblem.minimumSpanningTree(arrayList).getLeft())){
+            out+="P: "+nodeLevel.parent.getValue()+"->C: "+nodeLevel.self.getValue()+" attr: "+nodeLevel.getAttr() +" level: "+nodeLevel.getLevel()+"\n";
+        }
+        System.out.println("-----");
+
+        System.out.println(out);
+        System.out.println("-----");
+
+        assertEquals("",out);
+
+
+    }
+
+    @Test
+    public void ValidateBSTGood(){
+        TreeNode tree = new TreeNode("20");
+        tree.setLeft(new TreeNode("10"));
+        tree.setRight(new TreeNode("30"));
+        tree.getLeft().setLeft(new TreeNode("5"));
+        tree.getLeft().setRight(new TreeNode("15"));
+        tree.getLeft().getLeft().setLeft(new TreeNode("3"));
+        tree.getLeft().getLeft().setRight(new TreeNode("7"));
+        tree.getLeft().getRight().setRight(new TreeNode("17"));
+        TreeProblem treeProblem= new TreeProblem();
+        assertEquals(true, treeProblem.bstValidate(tree));
+    }
+
+    @Test
+    public void ValidateBSTBad(){
+        TreeNode tree = new TreeNode("20");
+        tree.setLeft(new TreeNode("10"));
+        tree.setRight(new TreeNode("30"));
+        tree.getLeft().setLeft(new TreeNode("500"));
+        tree.getLeft().setRight(new TreeNode("15"));
+        tree.getLeft().getLeft().setLeft(new TreeNode("3"));
+        tree.getLeft().getLeft().setRight(new TreeNode("7"));
+        tree.getLeft().getRight().setRight(new TreeNode("17"));
+        TreeProblem treeProblem= new TreeProblem();
+        assertEquals(false, treeProblem.bstValidate(tree));
     }
 
 }

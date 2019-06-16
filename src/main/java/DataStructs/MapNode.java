@@ -30,12 +30,13 @@ public class MapNode {
         Stack<MapNode> mapNodes = new Stack<>();
         mapNodes.add(this);
         ArrayList<String> out = new ArrayList<>();
-        while (mapNodes.peek() != null) {
+        while (mapNodes.size() != 0) {
             MapNode node = mapNodes.pop();
-            for (MapNode adjacent : node.getNeighbors()) {
-                mapNodes.add(adjacent);
-            }
             out.add(node.data);
+            for (MapNode adjacent : node.getNeighbors()) {
+                mapNodes.push(adjacent);
+            }
+
         }
         return out;
     }
@@ -54,6 +55,7 @@ public class MapNode {
             for (MapNode neighbor : mapNode.getNeighbors()) {
                 depthFirstSearchRecur(neighbor, visited);
             }
+
         }
     }
 
@@ -61,7 +63,7 @@ public class MapNode {
         Queue<MapNode> mapNodes = new LinkedList<>();
         mapNodes.add(this);
         ArrayList<String> out = new ArrayList<>();
-        while (mapNodes.peek() != null) {
+        while (mapNodes.size() != 0) {
             MapNode node = mapNodes.poll();
             for (MapNode adjacent : node.getNeighbors()) {
                 mapNodes.add(adjacent);
