@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.concurrent.PriorityBlockingQueue;
 
 public class DynamicProgramingProblem {
 
@@ -53,6 +54,7 @@ public class DynamicProgramingProblem {
         ArrayList<String> out = new ArrayList<>();
         generateParem(out, n, n, "");
         return out;
+
     }
 
     private void generateParem(ArrayList<String> out, int left, int right, String current) {

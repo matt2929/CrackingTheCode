@@ -2,51 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd74ab9-7318-4111-b92c-52171ac11fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DataStructs/DLList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DataStructs/DLNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DataStructs/LRUCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DataStructs/MapAdjacencyList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DataStructs/MapNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DataStructs/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DataStructs/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Problems/ArraysProblem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Problems/LinkedListProblem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Problems/MapProblem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Problems/TreeProblem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/ArrayTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/LRUcacheTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/LinkedListTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/MapTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/TreeTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructs/NodeLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructs/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructs/MapNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructs/MapNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Problems/MapProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problems/MapProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Problems/TreeProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problems/TreeProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LRUcacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LRUcacheTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MapTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MapTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TreeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TreeTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -93,30 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/NodeLevel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TreeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="305">
+              <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +77,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Problems/TreeProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            <state relative-caret-position="329">
+              <caret line="131" column="55" selection-start-line="131" selection-start-column="55" selection-end-line="131" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MapTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-137">
+              <caret line="26" column="125" lean-forward="true" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="135">
+              <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgramingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="435">
+              <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,8 +126,11 @@
         <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="630" selection-start-line="630" selection-end-line="630" />
+              <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
               <folding>
+                <element signature="e#4403#4404#0" expanded="true" />
+                <element signature="e#4455#4456#0" expanded="true" />
+                <element signature="e#24178#24179#0" expanded="true" />
                 <element signature="e#24230#24231#0" expanded="true" />
               </folding>
             </state>
@@ -181,7 +149,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="4110">
               <caret line="328" selection-start-line="328" selection-end-line="328" />
             </state>
           </provider>
@@ -245,19 +213,19 @@
         <option value="$PROJECT_DIR$/src/test/java/MapTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataStructs/MapNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataStructs/NodeLevel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TreeTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Problems/MapProblem.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataStructs/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Problems/TreeProblem.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgramingHelp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgramingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Problems/TreeProblem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TreeTests.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="768" />
     <option name="height" value="798" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -266,40 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="~/Cracking" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="~/Cracking" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="~/Cracking" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reports" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,14 +271,6 @@
               <item name="tesjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cracking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tesjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cracking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -359,6 +285,40 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Cracking" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Cracking" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="tesjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tesjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Cracking" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reports" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,12 +340,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DynamicProgramingTest.allPermWithDups">
+  <component name="RunManager" selected="Gradle.TreeTests.LowestCommonAncestor">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="DynamicProgramingTest.allChangePerm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DynamicProgramingTest.allChangePerm&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DynamicProgramingTest.allPermParem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DynamicProgramingTest.allPermParem&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="DynamicProgramingTest.allPermWithDups" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
@@ -407,32 +407,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DynamicProgramingTest.allPermWithoutDups" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTests.LowestCommonAncestor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DynamicProgramingTest.allPermWithoutDups&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TreeTests.ValidateBST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TreeTests.ValidateBST&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TreeTests.LowestCommonAncestor&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -467,12 +447,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTests.ValidateBSTGood" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTests.ValidatePath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TreeTests.ValidateBSTGood&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TreeTests.ValidatePath&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -505,10 +485,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DynamicProgramingTest.allPermWithoutDups" />
-        <item itemvalue="Gradle.TreeTests.ValidateBSTGood" />
+        <item itemvalue="Gradle.TreeTests.LowestCommonAncestor" />
         <item itemvalue="Gradle.TreeTests.ValidateBSTBad" />
-        <item itemvalue="Gradle.TreeTests.ValidateBST" />
+        <item itemvalue="Gradle.TreeTests.ValidatePath" />
+        <item itemvalue="Gradle.DynamicProgramingTest.allChangePerm" />
+        <item itemvalue="Gradle.DynamicProgramingTest.allPermParem" />
       </list>
     </recent_temporary>
   </component>
@@ -572,53 +553,73 @@
       <option name="project" value="LOCAL" />
       <updated>1560566943654</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added Dynamic Algorithm">
+      <created>1560716990428</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560716990428</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added Dynamic Algorithm">
+      <created>1560717002425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560717002425</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added parenthesis&#10;&#10;added make change">
+      <created>1560731312960</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560731312960</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 20m 13s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_ValidatePath - 2019.06.18 at 22h 07m 47s.xml">
+      <configuration name="TreeTests.ValidatePath" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 20m 25s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_ValidatePath - 2019.06.18 at 22h 16m 37s.xml">
+      <configuration name="TreeTests.ValidatePath" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 20m 32s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_ValidatePath - 2019.06.18 at 22h 21m 01s.xml">
+      <configuration name="TreeTests.ValidatePath" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 22m 05s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_ValidateBSTBad - 2019.06.18 at 22h 39m 23s.xml">
+      <configuration name="TreeTests.ValidateBSTBad" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 22m 27s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_LowestCommonAncestor - 2019.06.18 at 22h 39m 44s.xml">
+      <configuration name="TreeTests.LowestCommonAncestor" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 23m 44s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_LowestCommonAncestor - 2019.06.18 at 22h 41m 14s.xml">
+      <configuration name="TreeTests.LowestCommonAncestor" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 23m 45s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_LowestCommonAncestor - 2019.06.18 at 22h 41m 46s.xml">
+      <configuration name="TreeTests.LowestCommonAncestor" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 24m 11s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_LowestCommonAncestor - 2019.06.18 at 22h 41m 53s.xml">
+      <configuration name="TreeTests.LowestCommonAncestor" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 25m 32s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_LowestCommonAncestor - 2019.06.18 at 22h 45m 36s.xml">
+      <configuration name="TreeTests.LowestCommonAncestor" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="DynamicProgramingTest_allPermWithDups - 2019.06.16 at 16h 25m 51s.xml">
-      <configuration name="DynamicProgramingTest.allPermWithDups" configurationId="GradleRunConfiguration" />
+    <history-entry file="TreeTests_LowestCommonAncestor - 2019.06.18 at 22h 45m 43s.xml">
+      <configuration name="TreeTests.LowestCommonAncestor" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="798" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -665,7 +666,9 @@
     <MESSAGE value="renamed tests" />
     <MESSAGE value="Added Depth First Search and Breath First Search" />
     <MESSAGE value="Wrote the dequeue for LRU algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote the dequeue for LRU algorithm" />
+    <MESSAGE value="added Dynamic Algorithm" />
+    <MESSAGE value="added parenthesis&#10;&#10;added make change" />
+    <option name="LAST_COMMIT_MESSAGE" value="added parenthesis&#10;&#10;added make change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -684,15 +687,29 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java</url>
-          <line>16</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java</url>
-          <line>32</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/DynamicProgramingTest.java</url>
+          <line>33</line>
+          <properties class="DynamicProgramingTest" method="allChangePerm">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -729,25 +746,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/MapAdjacencyMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/MapAdjacencyMatrix.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/MinHeap.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/MapAdjacencyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -875,16 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MapTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="26" column="125" lean-forward="true" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Problems/LinkedListProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -906,50 +896,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problems/TreeProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/NodeLevel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="240">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="e#359#360#0" expanded="true" />
             <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgramingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="630" selection-start-line="630" selection-end-line="630" />
+        <state relative-caret-position="435">
+          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
           <folding>
-            <element signature="e#24230#24231#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -963,7 +926,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="4110">
           <caret line="328" selection-start-line="328" selection-end-line="328" />
         </state>
       </provider>
@@ -975,27 +938,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TreeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Problems/DynamicProgramingProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="135">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgramingTest.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="133">
+          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+          <folding>
+            <element signature="e#4403#4404#0" expanded="true" />
+            <element signature="e#4455#4456#0" expanded="true" />
+            <element signature="e#24178#24179#0" expanded="true" />
+            <element signature="e#24230#24231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructs/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MapTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="26" column="125" lean-forward="true" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problems/TreeProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="131" column="55" selection-start-line="131" selection-start-column="55" selection-end-line="131" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TreeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1052,7 +1052,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tesjava</last-edited>
+          <last-edited>test|tesjava</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
